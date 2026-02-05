@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Dashboard</title>
+<style>
+body{margin:0;font-family:Arial;background:#0f172a;color:#e5e7eb;}
+header{background:#020617;padding:15px;text-align:center;color:#38bdf8;font-size:20px;}
+nav{display:flex;justify-content:space-around;background:#020617;padding:10px;}
+nav a{color:#e5e7eb;text-decoration:none;}
+section{padding:15px;}
+.card{background:#020617;padding:15px;border-radius:12px;margin-bottom:15px;}
+table{width:100%;border-collapse:collapse;}
+th,td{padding:8px;border-bottom:1px solid #334155;text-align:center;}
+</style>
+</head>
+<body>
+
+<header>Admin Dashboard</header>
+<nav>
+<a href="admin_dashboard.html">Overview</a>
+<a href="mentor_dashboard.html">Mentor Panel</a>
+<a href="student_dashboard.html">Student Panel</a>
+<a href="index.html">Logout</a>
+</nav>
+
+<section>
+<div class="card">
+<h3>Overview</h3>
+<p>Total Students: 124</p>
+<p>Pending Payments: 12</p>
+<p>Active Mentors: 5</p>
+</div>
+
+<div class="card">
+<h3>Payments</h3>
+<table>
+<tr><th>TX ID</th><th>Student</th><th>Amount</th><th>Method</th><th>Status</th></tr>
+<tr><td>TX101</td><td>Alex Mwita</td><td>100,000 TZS</td><td>M-Pesa</td><td>Pending</td></tr>
+<tr><td>TX102</td><td>Neema Paul</td><td>50,000 TZS</td><td>CRDB</td><td>Approved</td></tr>
+</table>
+</div>
+</section>
+
+</body>
+</html>

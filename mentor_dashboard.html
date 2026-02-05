@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mentor Dashboard</title>
+<style>
+body{margin:0;font-family:Arial;background:#0f172a;color:#e5e7eb;}
+header{background:#020617;padding:15px;text-align:center;color:#38bdf8;font-size:20px;}
+nav{display:flex;justify-content:space-around;background:#020617;padding:10px;}
+nav a{color:#e5e7eb;text-decoration:none;}
+section{padding:15px;}
+.card{background:#020617;padding:15px;border-radius:12px;margin-bottom:15px;}
+input,textarea,button{width:100%;padding:10px;margin-top:10px;border-radius:8px;border:none;}
+button{background:#38bdf8;color:#0f172a;cursor:pointer;}
+table{width:100%;border-collapse:collapse;}
+th,td{padding:8px;border-bottom:1px solid #334155;text-align:center;}
+</style>
+</head>
+<body>
+
+<header>Mentor Dashboard</header>
+<nav>
+<a href="mentor_dashboard.html">Overview</a>
+<a href="index.html">Logout</a>
+</nav>
+
+<section>
+<div class="card">
+<h3>My Students</h3>
+<table>
+<tr><th>ID</th><th>Name</th><th>Level</th></tr>
+<tr><td>ST101</td><td>John Mussa</td><td>Beginner</td></tr>
+<tr><td>ST102</td><td>Neema Paul</td><td>Intermediate</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h3>Post Market Analysis</h3>
+<textarea placeholder="Write today’s market analysis"></textarea>
+<button>Post</button>
+</div>
+
+<div class="card">
+<h3>Send Trading Signals</h3>
+<input placeholder="Pair (e.g. EURUSD)">
+<input placeholder="Buy/Sell">
+<input placeholder="Entry Price">
+<input placeholder="Stop Loss">
+<input placeholder="Take Profit">
+<button>Send Signal</button>
+</div>
+</section>
+
+</body>
+</html>

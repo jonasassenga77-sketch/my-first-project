@@ -1,0 +1,1 @@
+console.log("JONASFX_ACADEMY website loaded successfully.");
